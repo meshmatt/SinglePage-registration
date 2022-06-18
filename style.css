@@ -1,0 +1,115 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 100%, 74%);
+  background-image:url(bg-intro-desktop.png);
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0; 
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-radius: 5px;
+  width:350px;
+  margin-top:20px;
+  padding:10px;
+  background:white; 
+  box-shadow: 0px 4px 0px 0px;
+  font-size:x-small;
+}
+.box ,p{
+  text-align:center;
+}
+.box-head {
+  border: 1px solid;
+  border-radius:5px;
+  margin: ;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  width:350px;
+  background: hsl(248, 32%, 49%);
+  box-shadow: 0px 4px 0px 0px;
+  color: white;
+  font-family: 'Poppins';
+  font-size: small;
+}
+@media only screen and (max-width: 1440px;){
+  body{
+    display: 0px;
+    margin: 0px;
+  }
+  main{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 20px;
+    padding: 0px;
+  }
+}
+.form-a {
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  right: 50px;
+  border: auto;
+  border-radius: 4px;
+  background: hsl(246, 25%, 77%)50%);
+  height: 500px;
+  padding: 10px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  color: hsl(246, 25%, 77%);
+}
+.form-b {
+  border: none;
+  border-radius: 2px;
+}
+button {
+  width:100%;
+  border-radius: 4px;
+  padding:15px 15px;
+  border:none;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  cursor: pointer;
+  font-size: x-small;
+}
+.head {
+  width: 1000px;
+  margin: auto;
+  height: auto;
+  position: relative;
+  padding-left: 1cm;
+}
+.head p {
+  font-family: 'Poppins';
+  padding-left: 20px;
+  padding-bottom: 25px;
+  color: white;
+  font-size: small;
+}
+.head h1 {
+  font-family: 'Poppins';
+  padding-left: 20px;
+  margin-top: 20%;
+  color: white;
+}
+input {
+  width: 90%;
+  border-radius: 4px;
+  padding: 10px;
+  margin:0 0 15px;
+  display: flex;
+  border: auto;
+  background: white;
+}
+a {
+  color:red;
+  text-decoration: none;
+}
