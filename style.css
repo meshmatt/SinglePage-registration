@@ -21,7 +21,7 @@ html, body {
   box-shadow: 0px 4px 0px 0px;
   font-size:x-small;
 }
-.box ,p{
+.box ,{
   text-align:center;
 }
 .box-head {
@@ -44,11 +44,11 @@ html, body {
     margin: 0px;
   }
   main{
-    display: block;
+    display:block;
     margin: auto;
     width: 70px;
     height: 20px;
-    padding: 0px;
+  
   }
 }
 .form-a {
