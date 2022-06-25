@@ -1,2 +1,2 @@
 # SinglePage-registration.github.io
-zuri single page
+https://meshmatt.github.io/SinglePage-registration.github.io/
